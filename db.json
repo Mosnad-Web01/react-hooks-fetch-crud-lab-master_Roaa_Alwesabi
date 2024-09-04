@@ -1,0 +1,103 @@
+{
+  "questions": [
+    {
+      "id": 5,
+      "prompt": "What syntax makes it possible to unpack values from arrays, or properties from objects, into distinct variables?",
+      "answers": [
+        "spread",
+        "key-value",
+        "coalescing",
+        "destructuring"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 6,
+      "prompt": "Returning different elements from a component depending on the state of your application is known as _____ rendering.",
+      "answers": [
+        "voodoo",
+        "conditional",
+        "reactive",
+        "controlled"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "prompt": "what is php?",
+      "answers": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctIndex": 0,
+      "id": 14
+    },
+    {
+      "prompt": "what is php?",
+      "answers": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctIndex": 0,
+      "id": 15
+    },
+    {
+      "prompt": "what is php?",
+      "answers": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctIndex": 0,
+      "id": 18
+    },
+    {
+      "prompt": "what is php?",
+      "answers": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctIndex": 0,
+      "id": 19
+    },
+    {
+      "prompt": "what is css?",
+      "answers": [
+        "3",
+        "6",
+        "8",
+        "9"
+      ],
+      "correctIndex": 0,
+      "id": 20
+    },
+    {
+      "prompt": "what is html?",
+      "answers": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctIndex": 0,
+      "id": 21
+    },
+    {
+      "prompt": "what is php?",
+      "answers": [
+        "3",
+        "2",
+        "3",
+        "9"
+      ],
+      "correctIndex": 3,
+      "id": 22
+    }
+  ]
+}

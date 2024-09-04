@@ -1,0 +1,117 @@
+/* تنسيق للجسم والصفحة بشكل عام */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+/* تنسيق للمكونات العامة */
+main {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* تنسيق لشريط التنقل */
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+nav button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+nav button:hover {
+  background-color: #45a049;
+}
+
+/* تنسيق للنموذج */
+section {
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+select {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+/* زر إرسال النموذج */
+button[type="submit"] {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* تنسيق لعناصر الأسئلة */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 15px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+li h4 {
+  margin: 0 0 5px;
+}
+
+li h5 {
+  margin: 5px 0;
+}
+
+li select {
+  margin-left: 10px;
+}
+
+li button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+li button:hover {
+  background-color: #c0392b;
+}
